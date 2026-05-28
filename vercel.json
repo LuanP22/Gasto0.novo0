@@ -1,17 +1,17 @@
 {
-    "version": 2,
-    "builds": [
-          { "src": "índice (2).html", "use": "@vercel/static" }
-    ],
-    "routes": [
-          {
-                  "src": "/(.*)",
-                  "dest": "/índice (2).html",
-                  "headers": {
-                            "Cache-Control": "no-cache, no-store, must-revalidate",
-                            "Pragma": "no-cache",
-                            "Expires": "0"
-                  }
-          }
-    ]
+      "version": 2,
+      "builds": [
+              { "src": "index (2).html", "use": "@vercel/static" }
+      ],
+      "routes": [
+              {
+                        "src": "/(.*)",
+                        "dest": "/index (2).html",
+                        "headers": {
+                                    "Cache-Control": "no-cache, no-store, must-revalidate",
+                                    "Pragma": "no-cache",
+                                    "Expires": "0"
+                        }
+              }
+      ]
 }
