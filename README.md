@@ -1,0 +1,1 @@
+# Gasto0.novo0
